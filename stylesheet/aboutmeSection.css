@@ -1,0 +1,66 @@
+.about {
+  width: 100%;
+  height: 750px;
+  background-color: #0868AB; }
+
+.name-box {
+  padding-top: 25px; }
+
+.name {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; }
+
+.history {
+  font-family: 'Raleway', sans-serif;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  color: #fff;
+  width: 67%;
+  margin: 0 auto;
+  margin-left: 14%;
+  padding: 15px 15px;
+  float: left; }
+
+#small-slider {
+  background-color: #e9e9e9;
+  /* margin: 35px auto; */
+  position: relative;
+  /* width: 30%; */
+  /* height: 30%; */
+  padding: -6px;
+  left: 31px;
+  bottom: 37%;
+  border-radius: 149px;
+  box-shadow: 0 0 20px white; }
+
+#small-slider > div {
+  position: absolute;
+  top: 60px;
+  left: 57px;
+  right: auto;
+  bottom: auto; }
+
+img.grayscale {
+  filter: url("images/yo.jpg");
+  -webkit-filter: grayscale(100%);
+  /* Chrome 19+ & Safari 6+ */
+  -webkit-transition: all .6s ease;
+  /* Fade to color for Chrome and Safari */
+  -webkit-backface-visibility: hidden;
+  /* Fix for transition flickering */
+  display: block;
+  width: 423px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 35px; }
+
+img.grayscale:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%); }
+
+/*# sourceMappingURL=aboutmeSection.css.map */

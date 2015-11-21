@@ -1,0 +1,21 @@
+div.ang-div-top {
+  background-color: rgba(91, 187, 249, 0);
+  width: 0px;
+  height: 10px;
+  border-top: 70px solid rgba(171, 63, 63, 0);
+  border-right: 960px solid #E6E6E6;
+  border-bottom: 0px solid black;
+  position: absolute;
+  top: 670px; }
+
+div.ang-div-botton {
+  background-color: rgba(151, 154, 157, 0);
+  max-width: 960px;
+  height: 3px;
+  border-top: 82px solid rgba(76, 79, 81, 0);
+  border-right: 960px solid #0868ab;
+  border-bottom: 0px solid #020303;
+  position: absolute;
+  top: 1415px; }
+
+/*# sourceMappingURL=port-section.css.map */
